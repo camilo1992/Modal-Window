@@ -12,6 +12,11 @@ by adding this class to a div
 It generates an overlay.  
 
 ```sh
+`
+.hidden {
+  display: none;
+}
+
 .overlay {
   'position: absolute;
   top: 0;
