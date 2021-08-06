@@ -4,12 +4,11 @@
 
 ## overlay 
 
-
-by adding this class to a div
+1. Create a div with those two classes
 ```sh
 '<div class="overlay hidden"></div>'
 ``` 
-It generates an overlay.  
+2. Define this two classes in css
 
 ```sh
 `
@@ -34,6 +33,17 @@ It generates an overlay.
   z-index: 5  ----> it sets the hierarchy or order of laying the elements one over the other one
 }
 ```
+
+Basically we add or remove the hidden class depending on the requirements. 
+Tehre is a second method to hide elements on the html
+
+we can do it seeting the hidden class to true
+
+```sh
+html-element.classList.hidden =`true
+```
+
+
 ## Key Events 
 
 /**
